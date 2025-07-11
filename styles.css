@@ -1,0 +1,77 @@
+
+body {
+
+background-image:url('back1.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.app-container {
+    background-color: rgba(134, 15, 15, 0.479);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #20af38;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #e0ffe0;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: Bold;
+    color: #5e39c5;
+}
+
+li button:hover {
+    color: #ff0000;
+}
+
